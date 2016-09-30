@@ -1,0 +1,142 @@
+/* NAV BAR */
+
+body {
+	padding: 0,0,0,0;
+}
+
+nav {
+	height: 50px;
+
+}
+
+nav li[role=presentation] a{
+	font-family: 'Lalezar', cursive;
+	font-size: 20px;
+	color: black;
+	width: auto;
+}
+
+nav li[role=presentation] a:hover{
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
+/* HEADER*/
+
+header#myCarousel {
+	height: 80vh;
+	vertical-align: middle;
+	padding-bottom: -40px
+}
+
+header.container{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+section{
+	margin-top: 0px;
+	min-height: 60vh;
+}
+
+article {
+	color: black;
+	padding-top: 5vh;
+	padding-left: 5%;
+	padding-right: 10%;
+	text-align: left;
+
+}
+
+#titre {
+	margin-top: 0px;
+	font-family: 'Lalezar', cursive;
+	font-size: 4em;
+	text-align: center;
+}
+
+div.article {
+	margin: auto;
+	text-align: center
+	margin-bottom: 80px;
+}
+
+p#texte {
+	font-family:  'Volkhov', serif, regular;
+	font-size: medium;
+	line-height: medium;
+	width: 60vw;
+	margin: auto;
+	margin-bottom: 80px;
+}
+
+section.row {
+vertical-align: middle;
+text-align: center;
+padding-left: auto;
+padding-right: auto;
+padding-top: 20px;
+margin-top: 0px;
+}
+
+a span.glyphicon.glyphicon-chevron-down {
+	text-align: center;
+	font-size: 3em;
+	color: white;
+}
+
+a span.glyphicon.glyphicon-chevron-down:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+/* SECTION */
+
+section.stories {
+	background-color: #D5D5D5;
+	text-align: center;
+}
+
+div.tag{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+	margin: O;
+	bottom: 0;
+    width: 100%;
+	text-align: center;
+	color: white;
+	font-family: 'Lalezar', cursive;
+	background-color: black;
+}
+
+footer.footer.navbar-bottom {
+	margin: 0;
+}
+
+.footer a {
+	list-style-type: none;
+	text-align: center; 
+	color: white;
+	padding: 0;
+	margin: 0;
+	float: bottom;
+}
+
+.footer a:hover {
+	color: white;
+}
+
+iframe {
+	float: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+

@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio fxpotier</title>
+   	<link href="https://fonts.googleapis.com/css?family=Amiko|Arima+Madurai|Crimson+Text|Farsan|Lalezar|Mogra|Rakkas|Rasa|Shrikhand|Suez+One|Volkhov|Yatra+One" rel="stylesheet">
+   	<link href="../assets/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="../assets/stylesheet_article.css">
+   	<link rel="stylesheet" type="text/css" href="../assets/full_slider.css">
+  </head>
+  <body>
+
+    <nav>
+      <div class="container">
+        <div class="nav navbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li role="presentation"><a href="../">Hello</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li role="presentation"><a href="../#posture">Valeurs</a></li>
+            <li role="presentation"><a href="../#stories">Stories</a></li>
+            <li role="presentation"><a href="../#contact">Contact</a></li>
+            <li role="presentation"><a href="../document/CV_fr_12_09_16.pdf">CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+ 
+
+<header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('../images/p1/1.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('../images/p1/2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+
+    <section class="sectionarticle">
+    		<article>
+    			<h1 id="titre">P1 - Les filaments de la connaissance</h1>
+          <div style="text-align: center;"> <iframe width="560" height="315" src="https://www.youtube.com/embed/QMgyoJXu1BY" frameborder="0" allowfullscreen align="middle"></iframe></div>
+    				<div class="article">
+    					<p id="texte">P1 était notre premier projet d'équipe au sein du programme I.D.E.A.. Dans le cadre de la fête des lumières, l'objectif était de créer une installation lumineuse répondant au thème "Les filaments de la connaissance".  Avec Raphaël Wulfman, Maxime Dechailles, Nessim Zouaoui et Olivier Heim, nous nous sommes complété pour explorer un sujet de façon transdisciplinaire et à l'orienter selon nos valeurs et centres d'intérêts pour en extraire un sens commun et lui donner une forme. Pour ce faire, créer une identité de groupe a été la première étape. Ensuite, chaque phase du projet appelait ses propres outils, méthodes toujours sous le signe de l'exigence et de la collaboration.
+              <br/>S'il n'était plus question d'utilisateurs, mais de spectateurs, l'idée de sens et de forme étaient bien présents. Dès lors le dessin et l'écoute permettaient de se projeter collectivement dans un projet dont nous avions défini le sens: conscience et intelligence collective. Là encore plusieurs outils étaient à notre disposition. Durant la phase d'exploration, nous nous reposions sur de nombreux documents scientifiques et une multitude d'œuvres d'art que nous confrontions dans des corpus documentaires dont nous faisions la synthèse pour mieux l'élargir. Ensuite, de nombreux brainstormings et le travail collaboratif nous permettait d'extraire le concept que nous voulions partager puis d'explorer à nouveau l'horizon qu'il ouvrait. Pour les phases suivantes qui consistaient à faire émerger un scénario formel puis à la réaliser, le champs de notre créativité était limité pour qu'elle puisse encore mieux s'y exprimer. Évidemment, pour la fête des lumières, c'est avec un jeu de source lumineuse, d'ombre et de projection que nous devions jouer. Là encore, les compétences de chacun sont devenues complémentaires afin de tirer pleinement profit des outils offerts par le fablab. La médiation avec les spectateurs nous a permis de confronter notre raisonnement.
+
+              </p>
+    				</div>
+    		</article>
+    </section>
+
+
+  	<footer  class="footer navbar-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4> Rubriques</h4>
+          <a href="../#posture">Valeurs</a>
+            <br/><a href="../#stories">Stories</a>
+            <br/><a href="../#contact">références</a>
+          </div>
+          <div class="col-md-6" id="contact">
+            <h4> Contact</h4>
+            <p> fxpotier@gmail.com 
+              <br/> +33620356931
+              <br/> <a href="https://fr.linkedin.com/in/fxpotier">LinkedIN</a>
+              <br/> <a href="https://twitter.com/FxPotier">Twitter</a>
+            </p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="../assets/jquery.js"></script>
+    <script src="../assets/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../assets/script_portfolio.js"></script>
+	<script>
+    	$('.carousel').carousel({
+        	interval: 5000 //changes the speed
+    	})
+    </script>
+
+  </body>
+</html>
