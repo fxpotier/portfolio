@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio fxpotier</title>
+   	<link href="https://fonts.googleapis.com/css?family=Amiko|Arima+Madurai|Crimson+Text|Farsan|Lalezar|Mogra|Rakkas|Rasa|Shrikhand|Suez+One|Volkhov|Yatra+One" rel="stylesheet">
+   	<link href="../assets/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="../assets/stylesheet_article.css">
+   	<link rel="stylesheet" type="text/css" href="../assets/full_slider.css">
+  </head>
+  <body>
+
+  	<nav>
+      <div class="container">
+        <div class="nav navbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li role="presentation"><a href="../">Hello</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li role="presentation"><a href="../#posture">Valeurs</a></li>
+            <li role="presentation"><a href="../#stories">Stories</a></li>
+            <li role="presentation"><a href="../#contact">Contact</a></li>
+            <li role="presentation"><a href="../document/CV_fr_12_09_16.pdf">CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+ 
+
+<header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('../images/ref/1.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('../images/ref/2.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('../images/ref/3.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('../images/ref/4.JPG');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 4</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+
+    <section class="sectionarticle">
+    		<article>
+    			<h1 id="titre">Des références ?</h1>
+
+  
+          
+    				<div class="article">
+    					 <p id="texte">Les informations se mêlent et s'entremêlent. Ce portfolio n'est pas sur GitHub par hasard, bien au contraire. Pour construire se portfolio je suis allé récupérer des morceaux de codes à droite et à gauche. Vous trouvez ci-dessous des liens vers les généreux contributeurs, autrement dit vers les projets d'autres acteurs. Aussi, vous trouverez des liens vers des articles auxquel j'attache beaucoup d'importance. 
+              </p>
+    				</div>
+            <div class="liens">
+
+                <h3>Pour construire ce site</h3>
+                <a href="http://getbootstrap.com/">Boostrap - pour le framework</a>
+                <br/><a href="https://blackrockdigital.github.io/startbootstrap-full-slider/#">BlackRockDigital - pour le slider</a>
+                <br/><a href="https://jquery.com/">jquery- le framework javascript (mise à contribution pour le slider)</a>
+
+
+            </div>
+
+            <div class="liens">
+
+                <h3>Des articles marquants</h3>
+                <a href="http://jods.mitpress.mit.edu/">JoDS</a>
+                <br/><a href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin">Sur les Epaules de Darwin</a>
+
+
+            </div>
+
+    		</article>
+    </section>
+
+
+  	<footer  class="footer navbar-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4> Rubriques</h4>
+          <a href="../#posture">Valeurs</a>
+            <br/><a href="../#stories">Stories</a>
+            <br/><a href="../#contact">références</a>
+          </div>
+          <div class="col-md-6" id="contact">
+            <h4> Contact</h4>
+            <p> fxpotier@gmail.com 
+              <br/> +33620356931
+              <br/> <a href="https://fr.linkedin.com/in/fxpotier">LinkedIN</a>
+              <br/> <a href="https://twitter.com/FxPotier">Twitter</a>
+            </p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="../assets/jquery.js"></script>
+    <script src="../assets/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="../assets/script_portfolio.js"></script>
+	<script>
+    	$('.carousel').carousel({
+        	interval: 5000 //changes the speed
+    	})
+    </script>
+
+  </body>
+</html>
