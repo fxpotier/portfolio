@@ -108,6 +108,28 @@ div.tag{
 	margin-right: 10px;
 }
 
+div.liens {
+	text-align: center;
+	color: black;
+	margin-bottom: 70px;
+
+}
+
+div.liens h3 {
+	font-family: 'Lalezar', cursive;
+	font-size: 2em;
+}
+
+div.liens a {
+	font-family: 'Volkhov', cursive;
+	font-size: 1,6em;
+	color: black;
+}
+
+div.liens a:hover {
+	color: black;
+}
+
 /* FOOTER */
 
 .footer {
