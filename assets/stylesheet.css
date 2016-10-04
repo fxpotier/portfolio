@@ -22,14 +22,14 @@ body {
 	margin-bottom: 0;
 	background-color: black;
 	padding-bottom: 0;
-	background-image: url("images/accueil.jpg");
+	background-image: url("images/accueil.jpg") no-repeat;
 	background-attachment: fixed;
 }
 
 /* HEADER*/
 
 header {
-	height: 100vh;
+	min-height: 100vh;
 	vertical-align: middle;
 }
 
